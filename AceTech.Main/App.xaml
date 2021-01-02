@@ -1,0 +1,15 @@
+﻿<Application x:Class="AceTech.Main.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  >
+    <Application.Resources>
+        <Style TargetType="TextBox">
+            <Setter Property="FontSize" Value="20"/>
+        </Style>
+        <Style TargetType="PasswordBox">
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="PasswordChar" Value="#"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+        </Style>
+    </Application.Resources>
+</Application>

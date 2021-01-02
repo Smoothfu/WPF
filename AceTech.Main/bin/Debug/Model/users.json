@@ -1,0 +1,52 @@
+﻿[
+  {
+    "UserName": "Fred0",
+    "UserPwd": "ad0ed81735e9b3f361757c68af2495a1",
+    "UserId": 0
+  },
+  {
+    "UserName": "Fred1",
+    "UserPwd": "ea1e7c670589f2302a4987dd9169439a",
+    "UserId": 1
+  },
+  {
+    "UserName": "Fred2",
+    "UserPwd": "318db06dce725d85f0acdfb9d246706d",
+    "UserId": 2
+  },
+  {
+    "UserName": "Fred3",
+    "UserPwd": "44ef911d02af280d5cdb65afdd91e245",
+    "UserId": 3
+  },
+  {
+    "UserName": "Fred4",
+    "UserPwd": "18c0eacafe2b96a5622c5023d2f7d06a",
+    "UserId": 4
+  },
+  {
+    "UserName": "Fred5",
+    "UserPwd": "d80cfb44de1b461883055a2d75688afd",
+    "UserId": 5
+  },
+  {
+    "UserName": "Fred6",
+    "UserPwd": "6c765bf1b143ff1aee1f6a387da7654e",
+    "UserId": 6
+  },
+  {
+    "UserName": "Fred7",
+    "UserPwd": "001c385863754c59a0721f0b3daef37d",
+    "UserId": 7
+  },
+  {
+    "UserName": "Fred8",
+    "UserPwd": "95e3e9ccea91c350fee3432fa48ec04f",
+    "UserId": 8
+  },
+  {
+    "UserName": "Fred9",
+    "UserPwd": "a84f4455879ced37b0fb9ba63fa74344",
+    "UserId": 9
+  }
+]

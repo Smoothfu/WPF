@@ -1,0 +1,9 @@
+D:\C\WpfApp8\AceTech.Services\bin\Debug\AceTech.Services.dll
+D:\C\WpfApp8\AceTech.Services\bin\Debug\AceTech.Services.pdb
+D:\C\WpfApp8\AceTech.Services\obj\Debug\AceTech.Services.csprojAssemblyReference.cache
+D:\C\WpfApp8\AceTech.Services\obj\Debug\AceTech.Services.csproj.CoreCompileInputs.cache
+D:\C\WpfApp8\AceTech.Services\obj\Debug\AceTech.Services.dll
+D:\C\WpfApp8\AceTech.Services\obj\Debug\AceTech.Services.pdb
+D:\C\WpfApp8\AceTech.Services\bin\Debug\Newtonsoft.Json.dll
+D:\C\WpfApp8\AceTech.Services\bin\Debug\Newtonsoft.Json.xml
+D:\C\WpfApp8\AceTech.Services\obj\Debug\AceTech.Services.csproj.CopyComplete
