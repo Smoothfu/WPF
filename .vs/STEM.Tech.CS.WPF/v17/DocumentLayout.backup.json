@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\STEM.Tech.CS.WPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6CDA1F74-41F4-4E28-82D6-4FF4D221E339}|STEM.Tech.CS.WPF\\STEM.Tech.CS.WPF.csproj|d:\\stem.tech.cs.wpf\\stem.tech.cs.wpf\\viewmodels\\mainvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CDA1F74-41F4-4E28-82D6-4FF4D221E339}|STEM.Tech.CS.WPF\\STEM.Tech.CS.WPF.csproj|solutionrelative:stem.tech.cs.wpf\\viewmodels\\mainvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CDA1F74-41F4-4E28-82D6-4FF4D221E339}|STEM.Tech.CS.WPF\\STEM.Tech.CS.WPF.csproj|d:\\stem.tech.cs.wpf\\stem.tech.cs.wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6CDA1F74-41F4-4E28-82D6-4FF4D221E339}|STEM.Tech.CS.WPF\\STEM.Tech.CS.WPF.csproj|solutionrelative:stem.tech.cs.wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E7398E2-ED64-472C-A422-E62C0840A8A8}|STEM.Tech.CS.DataModel\\STEM.Tech.CS.DataModel.csproj|d:\\stem.tech.cs.wpf\\stem.tech.cs.datamodel\\usercontrols\\ucimgtbk.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E7398E2-ED64-472C-A422-E62C0840A8A8}|STEM.Tech.CS.DataModel\\STEM.Tech.CS.DataModel.csproj|solutionrelative:stem.tech.cs.datamodel\\usercontrols\\ucimgtbk.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E7398E2-ED64-472C-A422-E62C0840A8A8}|STEM.Tech.CS.DataModel\\STEM.Tech.CS.DataModel.csproj|d:\\stem.tech.cs.wpf\\stem.tech.cs.datamodel\\views\\datagridview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E7398E2-ED64-472C-A422-E62C0840A8A8}|STEM.Tech.CS.DataModel\\STEM.Tech.CS.DataModel.csproj|solutionrelative:stem.tech.cs.datamodel\\views\\datagridview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DatagridView.xaml.cs",
+              "DocumentMoniker": "D:\\STEM.Tech.CS.WPF\\STEM.Tech.CS.DataModel\\Views\\DatagridView.xaml.cs",
+              "RelativeDocumentMoniker": "STEM.Tech.CS.DataModel\\Views\\DatagridView.xaml.cs",
+              "ToolTip": "D:\\STEM.Tech.CS.WPF\\STEM.Tech.CS.DataModel\\Views\\DatagridView.xaml.cs",
+              "RelativeToolTip": "STEM.Tech.CS.DataModel\\Views\\DatagridView.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwBwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T14:39:41.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UCImgTbk.xaml.cs",
+              "DocumentMoniker": "D:\\STEM.Tech.CS.WPF\\STEM.Tech.CS.DataModel\\UserControls\\UCImgTbk.xaml.cs",
+              "RelativeDocumentMoniker": "STEM.Tech.CS.DataModel\\UserControls\\UCImgTbk.xaml.cs",
+              "ToolTip": "D:\\STEM.Tech.CS.WPF\\STEM.Tech.CS.DataModel\\UserControls\\UCImgTbk.xaml.cs",
+              "RelativeToolTip": "STEM.Tech.CS.DataModel\\UserControls\\UCImgTbk.xaml.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T14:36:59.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainVM.cs",
+              "DocumentMoniker": "D:\\STEM.Tech.CS.WPF\\STEM.Tech.CS.WPF\\ViewModels\\MainVM.cs",
+              "RelativeDocumentMoniker": "STEM.Tech.CS.WPF\\ViewModels\\MainVM.cs",
+              "ToolTip": "D:\\STEM.Tech.CS.WPF\\STEM.Tech.CS.WPF\\ViewModels\\MainVM.cs*",
+              "RelativeToolTip": "STEM.Tech.CS.WPF\\ViewModels\\MainVM.cs*",
+              "ViewState": "AgIAABsAAAAAAAAAAAAMwCgAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T14:34:58.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\STEM.Tech.CS.WPF\\STEM.Tech.CS.WPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "STEM.Tech.CS.WPF\\MainWindow.xaml",
+              "ToolTip": "D:\\STEM.Tech.CS.WPF\\STEM.Tech.CS.WPF\\MainWindow.xaml",
+              "RelativeToolTip": "STEM.Tech.CS.WPF\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T12:52:13.273Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

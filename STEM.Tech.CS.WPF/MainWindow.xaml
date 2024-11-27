@@ -1,0 +1,56 @@
+﻿<Window x:Class="STEM.Tech.CS.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:dg="clr-namespace:STEM.Tech.CS.DataModel.Views;assembly=STEM.Tech.CS.DataModel"
+        WindowState="Maximized"
+        ResizeMode="NoResize"
+        xmlns:local="clr-namespace:STEM.Tech.CS.WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <TabControl Grid.Row="0">
+            <TabItem Header="DataGrid">
+                <dg:DatagridView                   
+                    Width="{Binding ActualWidth,RelativeSource={RelativeSource Mode=FindAncestor,
+                    AncestorType={x:Type Window}}}"
+                    Height="{Binding ActualHeight,RelativeSource={RelativeSource Mode=FindAncestor,
+                    AncestorType={x:Type Window}}}"/>
+            </TabItem>
+            <TabItem Header="ListBox">
+            </TabItem>
+        </TabControl>
+        <!--<StatusBar Grid.Row="1">
+            <StatusBarItem>
+                <TextBlock Text="{Binding StatusStr,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+            </StatusBarItem>
+            <StatusBarItem>
+                <TextBlock Text="{Binding StatusTimeStr,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+            </StatusBarItem>
+        </StatusBar>-->
+        <StatusBar Grid.Row="1">
+            <StatusBarItem>
+                <TextBlock Width="300"
+                       HorizontalAlignment="Left"
+                Text="{Binding StatusStr,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+            </StatusBarItem>
+            <StatusBarItem HorizontalAlignment="Right" Width="300">
+                <TextBlock 
+FontSize="30"
+Text="{Binding StatusTimeStr,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+            </StatusBarItem>
+        </StatusBar>
+        <!--<StackPanel Orientation="Horizontal" Grid.Row="1">
+            --><!--<TextBlock Width="300"
+                       HorizontalAlignment="Left"
+                Text="{Binding StatusStr,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>--><!--
+           
+
+        </StackPanel>-->
+    </Grid>
+</Window>
