@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Threading;
 using System.Windows;
 using System.Threading;
+using System.Windows.Controls;
 
 namespace STEM.Tech.CS.WPF.ViewModels
 {
@@ -19,8 +20,33 @@ namespace STEM.Tech.CS.WPF.ViewModels
     {
         public MainVM()
         {
+            InitDataGrid();            
+        }
+
+        #region Datagrid
+
+        private void InitDataGrid()
+        {
             InitData();
             RefreshTime();
+            InitCommands();
+        }
+
+        private void InitCommands()
+        {
+            ExportAllAsJsonCommand = new DelCommand(ExportAllAsJsonCommandExecuted);
+        }
+
+        private void ExportAllAsJsonCommandExecuted(object obj)
+        {
+            var dg = obj as DataGrid;
+            if(dg!=null && dg.Items!=null && dg.Items.Count>0)
+            {
+                var items = (System.Collections.IList)dg.Items;
+                List<Book> itemsList =items.Cast<Book>().ToList();
+                string jsonFile = $"Json_{Guid.NewGuid().ToString("N")}.json";
+                UtilityHelper.SerializeListTDataToJsonFile<Book>(itemsList, jsonFile);
+            }
         }
 
         private void RefreshTime()
@@ -49,8 +75,7 @@ namespace STEM.Tech.CS.WPF.ViewModels
                 StatusStr = msg;
             }));
         }
-
-        #region Datagrid
+                
 
         private void InitData()
         {
@@ -112,6 +137,9 @@ namespace STEM.Tech.CS.WPF.ViewModels
                 }
             }
         }
+        
+        public DelCommand ExportAllAsJsonCommand { get; set; }
+
         #endregion
 
         #region Status 

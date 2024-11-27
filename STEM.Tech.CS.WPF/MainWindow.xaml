@@ -25,32 +25,16 @@
             <TabItem Header="ListBox">
             </TabItem>
         </TabControl>
-        <!--<StatusBar Grid.Row="1">
-            <StatusBarItem>
-                <TextBlock Text="{Binding StatusStr,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
-            </StatusBarItem>
-            <StatusBarItem>
-                <TextBlock Text="{Binding StatusTimeStr,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
-            </StatusBarItem>
-        </StatusBar>-->
         <StatusBar Grid.Row="1">
             <StatusBarItem>
                 <TextBlock Width="300"
-                       HorizontalAlignment="Left"
-                Text="{Binding StatusStr,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+                           HorizontalAlignment="Left"
+                           Text="{Binding StatusStr,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
             </StatusBarItem>
             <StatusBarItem HorizontalAlignment="Right" Width="300">
-                <TextBlock 
-FontSize="30"
-Text="{Binding StatusTimeStr,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+                <TextBlock FontSize="30"
+                           Text="{Binding StatusTimeStr,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
             </StatusBarItem>
         </StatusBar>
-        <!--<StackPanel Orientation="Horizontal" Grid.Row="1">
-            --><!--<TextBlock Width="300"
-                       HorizontalAlignment="Left"
-                Text="{Binding StatusStr,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>--><!--
-           
-
-        </StackPanel>-->
     </Grid>
 </Window>

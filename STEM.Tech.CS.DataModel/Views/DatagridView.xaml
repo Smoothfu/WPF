@@ -29,6 +29,14 @@
                   VirtualizingPanel.IsVirtualizing="True"
                   VirtualizingPanel.CacheLength="1"
                   VirtualizingPanel.CacheLengthUnit="Page">
+            <DataGrid.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Export All As Json"
+                              Command="{Binding ExportAllAsJsonCommand}"
+                              CommandParameter="{Binding Path=PlacementTarget,RelativeSource={RelativeSource Mode=FindAncestor,AncestorType={x:Type ContextMenu}}}"
+                              />
+                </ContextMenu>
+            </DataGrid.ContextMenu>
             <DataGrid.Columns>
                 <DataGridTemplateColumn>
                     <DataGridTemplateColumn.CellTemplate>

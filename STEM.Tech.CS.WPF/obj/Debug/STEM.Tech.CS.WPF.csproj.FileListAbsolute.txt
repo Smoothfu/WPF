@@ -20,3 +20,5 @@ D:\STEM.Tech.CS.WPF\STEM.Tech.CS.WPF\obj\Debug\STEM.Tec.EFAF49E0.Up2Date
 D:\STEM.Tech.CS.WPF\STEM.Tech.CS.WPF\bin\Debug\STEM.Tech.CS.DataModel.dll
 D:\STEM.Tech.CS.WPF\STEM.Tech.CS.WPF\bin\Debug\STEM.Tech.CS.DataModel.pdb
 D:\STEM.Tech.CS.WPF\STEM.Tech.CS.WPF\bin\Debug\STEM.Tech.CS.DataModel.dll.config
+D:\STEM.Tech.CS.WPF\STEM.Tech.CS.WPF\bin\Debug\Newtonsoft.Json.dll
+D:\STEM.Tech.CS.WPF\STEM.Tech.CS.WPF\bin\Debug\Newtonsoft.Json.xml

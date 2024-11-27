@@ -19,3 +19,5 @@ D:\STEM.Tech.CS.WPF\STEM.Tech.CS.DataModel\obj\Debug\UserControls\UCImgTbk.baml
 D:\STEM.Tech.CS.WPF\STEM.Tech.CS.DataModel\obj\Debug\Views\DatagridView.baml
 D:\STEM.Tech.CS.WPF\STEM.Tech.CS.DataModel\obj\Debug\STEM.Tech.CS.DataModel.g.resources
 D:\STEM.Tech.CS.WPF\STEM.Tech.CS.DataModel\obj\Debug\STEM.Tec.EB124BC7.Up2Date
+D:\STEM.Tech.CS.WPF\STEM.Tech.CS.DataModel\bin\Debug\Newtonsoft.Json.dll
+D:\STEM.Tech.CS.WPF\STEM.Tech.CS.DataModel\bin\Debug\Newtonsoft.Json.xml

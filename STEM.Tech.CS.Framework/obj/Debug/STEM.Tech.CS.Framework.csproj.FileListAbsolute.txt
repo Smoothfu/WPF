@@ -7,3 +7,6 @@ D:\STEM.Tech.CS.WPF\STEM.Tech.CS.Framework\obj\Debug\STEM.Tech.CS.Framework.cspr
 D:\STEM.Tech.CS.WPF\STEM.Tech.CS.Framework\obj\Debug\STEM.Tech.CS.Framework.csproj.CoreCompileInputs.cache
 D:\STEM.Tech.CS.WPF\STEM.Tech.CS.Framework\obj\Debug\STEM.Tech.CS.Framework.dll
 D:\STEM.Tech.CS.WPF\STEM.Tech.CS.Framework\obj\Debug\STEM.Tech.CS.Framework.pdb
+D:\STEM.Tech.CS.WPF\STEM.Tech.CS.Framework\bin\Debug\Newtonsoft.Json.dll
+D:\STEM.Tech.CS.WPF\STEM.Tech.CS.Framework\bin\Debug\Newtonsoft.Json.xml
+D:\STEM.Tech.CS.WPF\STEM.Tech.CS.Framework\obj\Debug\STEM.Tec.4C5C048D.Up2Date
