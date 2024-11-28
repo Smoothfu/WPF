@@ -1,0 +1,12 @@
+D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.Framework\bin\Debug\STEM.Tech.Wpf.Framework.dll.config
+D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.Framework\bin\Debug\STEM.Tech.Wpf.Framework.dll
+D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.Framework\bin\Debug\STEM.Tech.Wpf.Framework.pdb
+D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.Framework\bin\Debug\Newtonsoft.Json.dll
+D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.Framework\bin\Debug\Newtonsoft.Json.xml
+D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.Framework\obj\Debug\STEM.Tech.Wpf.Framework.csproj.AssemblyReference.cache
+D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.Framework\obj\Debug\STEM.Tech.Wpf.Framework.Properties.Resources.resources
+D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.Framework\obj\Debug\STEM.Tech.Wpf.Framework.csproj.GenerateResource.cache
+D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.Framework\obj\Debug\STEM.Tech.Wpf.Framework.csproj.CoreCompileInputs.cache
+D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.Framework\obj\Debug\STEM.Tec.BC3E0CC7.Up2Date
+D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.Framework\obj\Debug\STEM.Tech.Wpf.Framework.dll
+D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.Framework\obj\Debug\STEM.Tech.Wpf.Framework.pdb

@@ -1,0 +1,9 @@
+D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.Models\bin\Debug\STEM.Tech.Wpf.Models.dll.config
+D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.Models\bin\Debug\STEM.Tech.Wpf.Models.dll
+D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.Models\bin\Debug\STEM.Tech.Wpf.Models.pdb
+D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.Models\obj\Debug\STEM.Tech.Wpf.Models.csproj.AssemblyReference.cache
+D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.Models\obj\Debug\STEM.Tech.Wpf.Models.Properties.Resources.resources
+D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.Models\obj\Debug\STEM.Tech.Wpf.Models.csproj.GenerateResource.cache
+D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.Models\obj\Debug\STEM.Tech.Wpf.Models.csproj.CoreCompileInputs.cache
+D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.Models\obj\Debug\STEM.Tech.Wpf.Models.dll
+D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.Models\obj\Debug\STEM.Tech.Wpf.Models.pdb

@@ -1,0 +1,41 @@
+﻿<Window x:Class="STEM.Tech.Wpf.App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:STEM.Tech.Wpf.App"
+        xmlns:ucDatagridView="clr-namespace:STEM.Tech.Wpf.UCDatagrid.Views;assembly=STEM.Tech.Wpf.UCDatagrid"
+        xmlns:ucListBoxView="clr-namespace:SETM.Tech.Wpf.UCListBox.Views;assembly=SETM.Tech.Wpf.UCListBox"
+        xmlns:ucCanvasView="clr-namespace:STEM.Tech.Wpf.UCCanvas.Views;assembly=STEM.Tech.Wpf.UCCanvas"
+        WindowState="Maximized"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <TabControl Grid.Row="0">
+            <TabItem Header="DataGrid">
+                <ucDatagridView:UCDatagridView/>
+            </TabItem>
+            <TabItem Header="ListBox">
+                <ucListBoxView:UCListBoxView/>
+            </TabItem>
+            <TabItem Header="Canvas">
+                <ucCanvasView:UCCanvasView/>
+            </TabItem>
+        </TabControl>
+        <StatusBar Grid.Row="1">
+            <StatusBarItem>
+                <TextBlock Width="300"
+                       HorizontalAlignment="Left"
+                       Text="{Binding StatusStr,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+            </StatusBarItem>
+            <StatusBarItem HorizontalAlignment="Right" Width="300">
+                <TextBlock FontSize="30"
+                       Text="{Binding StatusTimeStr,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>

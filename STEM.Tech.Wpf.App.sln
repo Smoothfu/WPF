@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STEM.Tech.Wpf.App", "STEM.Tech.Wpf.App\STEM.Tech.Wpf.App.csproj", "{723E5131-73F4-43CB-9F43-07E92902B30D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STEM.Tech.Wpf.Framework", "STEM.Tech.Wpf.Framework\STEM.Tech.Wpf.Framework.csproj", "{6A2F4631-37B1-4D87-AE3A-B3D13B535142}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STEM.Tech.Wpf.UCDatagrid", "STEM.Tech.Wpf.UCDatagrid\STEM.Tech.Wpf.UCDatagrid.csproj", "{5D7F2C5A-0046-46E3-B1D6-70499FEEA82B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SETM.Tech.Wpf.UCListBox", "SETM.Tech.Wpf.UCListBox\SETM.Tech.Wpf.UCListBox.csproj", "{1924D8E6-F106-4983-84A0-019C4900BAEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STEM.Tech.Wpf.Models", "STEM.Tech.Wpf.Models\STEM.Tech.Wpf.Models.csproj", "{574D5217-B542-4826-9CF7-D00F82D310AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STEM.Tech.Wpf.UCCanvas", "STEM.Tech.Wpf.UCCanvas\STEM.Tech.Wpf.UCCanvas.csproj", "{DBFE6FC9-DA8C-4DAC-AB11-7DC1B5245D0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{723E5131-73F4-43CB-9F43-07E92902B30D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{723E5131-73F4-43CB-9F43-07E92902B30D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{723E5131-73F4-43CB-9F43-07E92902B30D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{723E5131-73F4-43CB-9F43-07E92902B30D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A2F4631-37B1-4D87-AE3A-B3D13B535142}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A2F4631-37B1-4D87-AE3A-B3D13B535142}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A2F4631-37B1-4D87-AE3A-B3D13B535142}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A2F4631-37B1-4D87-AE3A-B3D13B535142}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D7F2C5A-0046-46E3-B1D6-70499FEEA82B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D7F2C5A-0046-46E3-B1D6-70499FEEA82B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D7F2C5A-0046-46E3-B1D6-70499FEEA82B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D7F2C5A-0046-46E3-B1D6-70499FEEA82B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1924D8E6-F106-4983-84A0-019C4900BAEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1924D8E6-F106-4983-84A0-019C4900BAEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1924D8E6-F106-4983-84A0-019C4900BAEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1924D8E6-F106-4983-84A0-019C4900BAEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{574D5217-B542-4826-9CF7-D00F82D310AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{574D5217-B542-4826-9CF7-D00F82D310AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{574D5217-B542-4826-9CF7-D00F82D310AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{574D5217-B542-4826-9CF7-D00F82D310AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBFE6FC9-DA8C-4DAC-AB11-7DC1B5245D0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBFE6FC9-DA8C-4DAC-AB11-7DC1B5245D0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBFE6FC9-DA8C-4DAC-AB11-7DC1B5245D0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBFE6FC9-DA8C-4DAC-AB11-7DC1B5245D0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

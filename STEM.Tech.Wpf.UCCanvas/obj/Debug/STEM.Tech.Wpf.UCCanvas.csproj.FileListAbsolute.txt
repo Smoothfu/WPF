@@ -1,0 +1,14 @@
+D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.UCCanvas\bin\Debug\STEM.Tech.Wpf.UCCanvas.dll.config
+D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.UCCanvas\bin\Debug\STEM.Tech.Wpf.UCCanvas.dll
+D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.UCCanvas\bin\Debug\STEM.Tech.Wpf.UCCanvas.pdb
+D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.UCCanvas\obj\Debug\STEM.Tech.Wpf.UCCanvas.csproj.AssemblyReference.cache
+D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.UCCanvas\obj\Debug\Views\UCCanvasView.g.cs
+D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.UCCanvas\obj\Debug\STEM.Tech.Wpf.UCCanvas_MarkupCompile.cache
+D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.UCCanvas\obj\Debug\STEM.Tech.Wpf.UCCanvas_MarkupCompile.lref
+D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.UCCanvas\obj\Debug\Views\UCCanvasView.baml
+D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.UCCanvas\obj\Debug\STEM.Tech.Wpf.UCCanvas.g.resources
+D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.UCCanvas\obj\Debug\STEM.Tech.Wpf.UCCanvas.Properties.Resources.resources
+D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.UCCanvas\obj\Debug\STEM.Tech.Wpf.UCCanvas.csproj.GenerateResource.cache
+D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.UCCanvas\obj\Debug\STEM.Tech.Wpf.UCCanvas.csproj.CoreCompileInputs.cache
+D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.UCCanvas\obj\Debug\STEM.Tech.Wpf.UCCanvas.dll
+D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.UCCanvas\obj\Debug\STEM.Tech.Wpf.UCCanvas.pdb
