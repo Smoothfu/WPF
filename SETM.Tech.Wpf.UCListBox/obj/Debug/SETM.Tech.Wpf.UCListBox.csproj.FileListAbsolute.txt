@@ -1,0 +1,10 @@
+D:\STEM.Tech.CS.WPF\SETM.Tech.Wpf.UCListBox\obj\Debug\SETM.Tech.Wpf.UCListBox.csproj.AssemblyReference.cache
+D:\STEM.Tech.CS.WPF\SETM.Tech.Wpf.UCListBox\obj\Debug\UserControls\UCListBoxImgTbk.g.cs
+D:\STEM.Tech.CS.WPF\SETM.Tech.Wpf.UCListBox\obj\Debug\Views\UCListBoxView.g.cs
+D:\STEM.Tech.CS.WPF\SETM.Tech.Wpf.UCListBox\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\STEM.Tech.CS.WPF\SETM.Tech.Wpf.UCListBox\obj\Debug\SETM.Tech.Wpf.UCListBox_MarkupCompile.cache
+D:\STEM.Tech.CS.WPF\SETM.Tech.Wpf.UCListBox\obj\Debug\SETM.Tech.Wpf.UCListBox_MarkupCompile.lref
+D:\STEM.Tech.CS.WPF\SETM.Tech.Wpf.UCListBox\obj\Debug\UserControls\UCListBoxImgTbk.baml
+D:\STEM.Tech.CS.WPF\SETM.Tech.Wpf.UCListBox\obj\Debug\Views\UCListBoxView.baml
+D:\STEM.Tech.CS.WPF\SETM.Tech.Wpf.UCListBox\obj\Debug\SETM.Tech.Wpf.UCListBox.g.resources
+D:\STEM.Tech.CS.WPF\SETM.Tech.Wpf.UCListBox\obj\Debug\SETM.Tech.Wpf.UCListBox.pdb
