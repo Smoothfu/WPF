@@ -64,19 +64,20 @@
             <behavior:Interaction.Behaviors>
                 <frameworkBehavior:DatagridMultiSelectBehavior SelectedItems="{Binding SelctedItems,Mode=OneWayToSource}"  /> 
             </behavior:Interaction.Behaviors>
-            <!--<behavior:Interaction.Triggers>
+            <behavior:Interaction.Triggers>
                 <behavior:EventTrigger EventName="SelectionChanged">
                     <behavior:InvokeCommandAction Command="{Binding SelectionChangedCommand}"
                                                   CommandParameter="{Binding Path=SelectedItems,
                         RelativeSource={RelativeSource Mode=FindAncestor,AncestorType={x:Type DataGrid}}}"/>
                 </behavior:EventTrigger>
-            </behavior:Interaction.Triggers>-->
+            </behavior:Interaction.Triggers>
             <DataGrid.ContextMenu>
                 <ContextMenu>
                     <MenuItem Header="Export All As Json"
                           Command="{Binding ExportAllAsJsonCommand}"
                           CommandParameter="{Binding Path=PlacementTarget,RelativeSource={RelativeSource Mode=FindAncestor,AncestorType={x:Type ContextMenu}}}"
                           />
+                    <MenuItem Header="Export Selected" Command="{Binding ExportSelectedCommand}"/>
                 </ContextMenu>
             </DataGrid.ContextMenu>
             <DataGrid.Columns>

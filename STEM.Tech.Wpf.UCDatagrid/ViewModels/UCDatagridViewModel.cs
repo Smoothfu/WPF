@@ -11,6 +11,7 @@ using System.Windows.Controls;
 using System.Windows.Media.Imaging;
 using System.Windows.Media;
 using STEM.Tech.Wpf.Models.Models;
+using System.Windows;
 
 namespace STEM.Tech.Wpf.UCDatagrid.ViewModels
 {
@@ -67,15 +68,24 @@ namespace STEM.Tech.Wpf.UCDatagrid.ViewModels
         private void SelectionChangedCommandExecuted(object obj)
         {
             var items = ((System.Collections.IList)obj).Cast<Book>()?.ToList();
+            if (items != null && items.Any())
+            {
+                SelectedBks = new ObservableCollection<Book>(items);
+            }
         }
 
         private void ExportSelectedCommandExecuted(object obj)
         {
-            var itemsList = ((System.Collections.IList)obj).Cast<Book>()?.ToList();
-            if (itemsList != null && itemsList.Any())
+            if (SelectedBks != null && SelectedBks.Any())
             {
+                var msgBoxResult = MessageBox.Show($"Are you sure to export\n{SelectedBks.Count}\n selected items?",
+                    "Export Selected", MessageBoxButton.YesNo, MessageBoxImage.Question, MessageBoxResult.Yes);
+                if (msgBoxResult != MessageBoxResult.Yes)
+                {
+                    return;
+                }
                 string jsonFile = $"SelectedJson_{Guid.NewGuid().ToString("N")}.json";
-                UtilityHelper.SerializeListTDataToJsonFile<Book>(itemsList, jsonFile);
+                UtilityHelper.SerializeListTDataToJsonFile<Book>(SelectedBks, jsonFile);
                 Global.OnUpdateStatusEvent($"Exported in {jsonFile}");
             }
         }
@@ -152,6 +162,23 @@ namespace STEM.Tech.Wpf.UCDatagrid.ViewModels
                 {
                     selectedBk = value;
                     OnPropertyChanged(nameof(SelectedBk));
+                }
+            }
+        }
+
+        private ObservableCollection<Book> selectedBks;
+        public ObservableCollection<Book> SelectedBks
+        {
+            get
+            {
+                return selectedBks;
+            }
+            set
+            {
+                if (value != selectedBks)
+                {
+                    selectedBks = value;
+                    OnPropertyChanged(nameof(SelectedBks));
                 }
             }
         }
