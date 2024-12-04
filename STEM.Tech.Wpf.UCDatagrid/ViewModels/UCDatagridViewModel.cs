@@ -46,7 +46,7 @@ namespace STEM.Tech.Wpf.UCDatagrid.ViewModels
                         BooksCollection.Add(new Book()
                         {
                             Id = i + 1,
-                            ISBN = $"ISBN_{i + 1}",
+                            ISBN = $"ISBN_{Guid.NewGuid().ToString("N")}",
                             Name = $"Name_{i + 1}",
                             ImgUrl = $"{imgsList[i % imgsCount]}",
                             ImgSource = GetImageSourceViaUrl(imgsList[i % imgsCount])
@@ -59,6 +59,27 @@ namespace STEM.Tech.Wpf.UCDatagrid.ViewModels
         private void InitCommands()
         {
             ExportAllAsJsonCommand = new DelCommand(ExportAllAsJsonCommandExecuted);
+            LoadCommand = new DelCommand(LoadCommandExecuted);
+            ExportSelectedCommand = new DelCommand(ExportSelectedCommandExecuted);
+            SelectionChangedCommand = new DelCommand(SelectionChangedCommandExecuted);
+        }
+
+        private void SelectionChangedCommandExecuted(object obj)
+        {
+             var items=((System.Collections.IList)obj).Cast<Book>()?.ToList();
+        }
+
+        private void ExportSelectedCommandExecuted(object obj)
+        {
+             
+        }
+
+        private void LoadCommandExecuted(object obj)
+        {
+            Task.Run(() =>
+            {
+                InitData();
+            });
         }
 
         private ImageSource GetImageSourceViaUrl(string imgUrl)
@@ -144,7 +165,9 @@ namespace STEM.Tech.Wpf.UCDatagrid.ViewModels
 
 
         public DelCommand ExportAllAsJsonCommand { get; set; }
-
+        public DelCommand LoadCommand { get; set; }
+        public DelCommand ExportSelectedCommand { get; set; }
+        public DelCommand SelectionChangedCommand { get; set; }
 
     }
 }

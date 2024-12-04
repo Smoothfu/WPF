@@ -7,8 +7,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Border BorderBrush="Blue"
-      BorderThickness="3"
-      Width="800"
+      BorderThickness="3"      
       Height="500">
         <Border.Background>
             <ImageBrush ImageSource="{Binding UCImgSource,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
@@ -16,9 +15,9 @@
               RenderOptions.BitmapScalingMode="Fant"/>
         </Border.Background>
         <TextBlock Text="{Binding UCStr,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
-                   HorizontalAlignment="Center"
+                   HorizontalAlignment="Left"
                    VerticalAlignment="Center"
                    Foreground="Red"
-                   FontSize="100"/>
+                   FontSize="70"/>
     </Border>
 </UserControl>

@@ -50,3 +50,6 @@ D:\STEM.Tech.CS.WPF\STEM.Tech.Wpf.UCDatagrid\obj\Debug\STEM.Tech.Wpf.UCDatagrid.
 D:\STEM.Tech.CS.WPF\STEM.Tech.Wpf.UCDatagrid\obj\Debug\STEM.Tec.8E8B8FC8.Up2Date
 D:\STEM.Tech.CS.WPF\STEM.Tech.Wpf.UCDatagrid\obj\Debug\STEM.Tech.Wpf.UCDatagrid.dll
 D:\STEM.Tech.CS.WPF\STEM.Tech.Wpf.UCDatagrid\obj\Debug\STEM.Tech.Wpf.UCDatagrid.pdb
+D:\STEM.Tech.CS.WPF\STEM.Tech.Wpf.UCDatagrid\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\STEM.Tech.CS.WPF\STEM.Tech.Wpf.UCDatagrid\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\STEM.Tech.CS.WPF\STEM.Tech.Wpf.UCDatagrid\bin\Debug\Microsoft.Xaml.Behaviors.xml

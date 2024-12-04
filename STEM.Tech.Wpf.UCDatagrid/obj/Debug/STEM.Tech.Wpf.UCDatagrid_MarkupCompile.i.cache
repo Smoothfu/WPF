@@ -4,7 +4,7 @@
 library
 C#
 .cs
-D:\C\STEM.Tech.Wpf.App\STEM.Tech.Wpf.UCDatagrid\obj\Debug\
+D:\STEM.Tech.CS.WPF\STEM.Tech.Wpf.UCDatagrid\obj\Debug\
 STEM.Tech.Wpf.UCDatagrid
 none
 false
@@ -13,8 +13,8 @@ DEBUG;TRACE
 2-1702712266
 
 71775151871
-15-1256755752
+161164311589
 UserControls\UCImgTbk.xaml;Views\UCDatagridView.xaml;
 
-False
+True
 
