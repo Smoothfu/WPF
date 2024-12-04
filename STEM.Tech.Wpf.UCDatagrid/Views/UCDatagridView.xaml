@@ -24,7 +24,7 @@
         <Style x:Key="{x:Static ToolBar.ButtonStyleKey}" TargetType="{x:Type Button}">
             <Setter Property="FontSize" Value="30"/>
             <Setter Property="Foreground" Value="Black"/>
-            <Setter Property="Width" Value="100"/>
+            <Setter Property="Width" Value="200"/>
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
                     <Setter Property="Foreground" Value="Red"/>
@@ -47,9 +47,10 @@
             <GridSplitter/>
             <Button Content="ExportAll" Command="{Binding ExportAllAsJsonCommand}"/>
             <GridSplitter/>
-            <Button Content="Export Selected" Command="{Binding ExportSelectedCommand}"/>
+            <Button Content="Export Selected" Command="{Binding ExportSelectedCommand}"
+                    CommandParameter="{Binding Path=SelectedItems,ElementName=dg}" />
         </ToolBar>
-        <DataGrid Grid.Row="1"
+        <DataGrid x:Name="dg" Grid.Row="1"
               ItemsSource="{Binding BooksCollection,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
               SelectedIndex="{Binding SelectedIdx,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
               SelectedItem="{Binding SelectedBk,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
@@ -63,13 +64,13 @@
             <behavior:Interaction.Behaviors>
                 <frameworkBehavior:DatagridMultiSelectBehavior SelectedItems="{Binding SelctedItems,Mode=OneWayToSource}"  /> 
             </behavior:Interaction.Behaviors>
-            <behavior:Interaction.Triggers>
+            <!--<behavior:Interaction.Triggers>
                 <behavior:EventTrigger EventName="SelectionChanged">
                     <behavior:InvokeCommandAction Command="{Binding SelectionChangedCommand}"
                                                   CommandParameter="{Binding Path=SelectedItems,
                         RelativeSource={RelativeSource Mode=FindAncestor,AncestorType={x:Type DataGrid}}}"/>
                 </behavior:EventTrigger>
-            </behavior:Interaction.Triggers>
+            </behavior:Interaction.Triggers>-->
             <DataGrid.ContextMenu>
                 <ContextMenu>
                     <MenuItem Header="Export All As Json"

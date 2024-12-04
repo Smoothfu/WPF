@@ -19,7 +19,7 @@ namespace STEM.Tech.Wpf.UCDatagrid.ViewModels
         public UCDatagridViewModel()
         {
             Init();
-        }        
+        }
 
         private void Init()
         {
@@ -66,12 +66,18 @@ namespace STEM.Tech.Wpf.UCDatagrid.ViewModels
 
         private void SelectionChangedCommandExecuted(object obj)
         {
-             var items=((System.Collections.IList)obj).Cast<Book>()?.ToList();
+            var items = ((System.Collections.IList)obj).Cast<Book>()?.ToList();
         }
 
         private void ExportSelectedCommandExecuted(object obj)
         {
-             
+            var itemsList = ((System.Collections.IList)obj).Cast<Book>()?.ToList();
+            if (itemsList != null && itemsList.Any())
+            {
+                string jsonFile = $"SelectedJson_{Guid.NewGuid().ToString("N")}.json";
+                UtilityHelper.SerializeListTDataToJsonFile<Book>(itemsList, jsonFile);
+                Global.OnUpdateStatusEvent($"Exported in {jsonFile}");
+            }
         }
 
         private void LoadCommandExecuted(object obj)
@@ -125,7 +131,7 @@ namespace STEM.Tech.Wpf.UCDatagrid.ViewModels
             }
             set
             {
-                if(value!=selectedIdx)
+                if (value != selectedIdx)
                 {
                     selectedIdx = value;
                     OnPropertyChanged(nameof(SelectedIdx));
@@ -142,7 +148,7 @@ namespace STEM.Tech.Wpf.UCDatagrid.ViewModels
             }
             set
             {
-                if (value!= selectedBk)
+                if (value != selectedBk)
                 {
                     selectedBk = value;
                     OnPropertyChanged(nameof(SelectedBk));
